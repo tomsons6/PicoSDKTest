@@ -25,7 +25,7 @@ namespace Unity.XR.PXR.Editor
         static PXR_SDKBuildCheck()
         {
             ObjectFactory.componentWasAdded += ComponentWasAdded;
-            //BuildPlayerWindow.RegisterBuildPlayerHandler(OnBuild);
+            BuildPlayerWindow.RegisterBuildPlayerHandler(OnBuild);
             doNotShowAgain = GetDoNotShowBuildWarning();
             Debug.Log("PXRLog [Build Check]RegisterBuildPlayerHandler,Already Do not show: " + doNotShowAgain);
         }
