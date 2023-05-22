@@ -1,5 +1,6 @@
 {
     "name": "Unity.XR.PICO",
+    "rootNamespace": "",
     "references": [
         "Unity.XR.Management",
         "Unity.InputSystem",
@@ -11,7 +12,9 @@
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": [],
+    "defineConstraints": [
+        "BUILD_PICO"
+    ],
     "versionDefines": [
         {
             "name": "com.unity.inputsystem",
